@@ -310,6 +310,7 @@ SLAP_TEMPLATES = [
     "{victim} kullanıcısına doğru {item} fırlatıyor.",
     "{victim} aptalına {item} ile tokat atıyor.",
     "{victim} kullanıcısını yere sabitleyıp ardı ardına {item} ile {hits} .",
+    "orospu {victim} götüne {item} sokuyor.",
     "{item} alarak {victim} {hits}.",
     "{victim} kullanıcısını sandalyeye bağlayıp {item} {throws} .",
     "{victim} kullanıcısını arkadaşca ittirerek lavda yüzmeyi öğrenmesini sağlıyor."
@@ -323,6 +324,12 @@ ITEMS = [
     "tahta baston",
     "çivi",
     "yazıcı",
+    "dildo",
+    "30 cm",
+    "matkap",
+    "hawli yaraq",
+    "roket",
+    "uzay mekiği",
     "kürek",
     "tüplü monitör",
     "fizik defteri",
@@ -350,12 +357,14 @@ ITEMS = [
 THROW = [
     "atıyor",
     "fırlatıyor",
+    "sokuyor",
     "savuruyor",
     "yağdırıyor",
 ]
 
 HIT = [
     "vuruyor",
+    "sikiyor",
     "sert vuruyor",
     "tokatlıyor",
     "yumrukluyor",
