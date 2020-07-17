@@ -27,12 +27,4 @@ async def gosmeyn(event):
             await event.delete()
             os.remove(indir)
             sonuc = True
-            
-            
-CMD_HELP.update({
-    "gosmeyn":
-    ".gosmeyn\
-\nKullanımı: Rastgele bir Ghostemane şarkısı indirir\
-\n\nEdited by HawliJojuk."
-})            
 
